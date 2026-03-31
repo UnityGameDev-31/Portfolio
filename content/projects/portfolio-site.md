@@ -3,7 +3,7 @@ title: "Army Antz Reloaded - リアルタイム対戦ネットワーク同期シ
 description: "最大4人同時対戦を可能にするモバイル向けリアルタイム・アクションゲーム。Photon Engine (PUN2) をベースに、独自のシリアライズ処理と補間アルゴリズムを実装し、低帯域環境でも遅延を感じさせない対戦体験を実現。"
 tags: ["Unity", "C#", "Photon PUN2", "Network Programming", "Mobile Optimization"]
 github: "" 
-liveUrl: "https://apps.apple.com/app/army-antz/id1044533036"
+liveUrl: "https://apkcombo.com/army-antz/com.dws.armyantz/"
 image: "/ArmyAntz.png"
 ---
 

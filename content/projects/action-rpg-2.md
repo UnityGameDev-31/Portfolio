@@ -3,7 +3,7 @@ title: "Cloud Song: Saga of Skywalkers - 拡張可能なスキルシステム設
 description: "大規模モバイルMMORPGにおける魔術師（Mage）クラスのリードエンジニアリング。ScriptableObjectを活用したデータ駆動型設計により、複雑なスキル分岐とパラメータ管理を共通化し、開発効率を大幅に向上させたプロジェクト。"
 tags: ["Unity", "C#", "ScriptableObject", "System Architecture", "Mobile Optimization"]
 github: "" 
-liveUrl: "https://cloudsong.efun.com/"
+liveUrl: "https://cloudsong.vnggames.com/"
 image: "/CloudSong.jpg"
 ---
 
