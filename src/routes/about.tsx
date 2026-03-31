@@ -11,11 +11,11 @@ const SKILLS = [
   { name: 'HLSL / GLSL シェーダー', level: 88, color: 'magenta' },
   { name: 'Shader Graph', level: 90, color: 'magenta' },
   { name: 'URP / HDRP', level: 85, color: 'magenta' },
-  { name: 'Cinemachine', level: 80, color: 'green' },
-  { name: 'DOTween', level: 85, color: 'green' },
-  { name: 'Git / GitHub', level: 88, color: 'blue' },
-  { name: 'Blender（3Dモデリング）', level: 65, color: 'green' },
-  { name: 'Photoshop / Illustrator', level: 70, color: 'green' },
+  /*{ name: 'Cinemachine', level: 80, color: 'green' },
+  { name: 'DOTween', level: 85, color: 'green' },*/
+  { name: 'Git / GitHub', level: 88, color: 'blue' }
+  /*{ name: 'Blender（3Dモデリング）', level: 65, color: 'green' },
+  { name: 'Photoshop / Illustrator', level: 70, color: 'green' },*/
 ]
 
 const EXPERIENCES = [
@@ -147,7 +147,7 @@ function About() {
             style={{
               width: 'clamp(120px, 20vw, 200px)',
               aspectRatio: '1',
-              background: 'linear-gradient(135deg, #0d0d20, #1a0a2e)',
+              background: '/headshot-on-white.jpg',
               border: '2px solid rgba(0,240,255,0.3)',
               borderRadius: '8px',
               display: 'flex',
@@ -216,7 +216,7 @@ function About() {
                 marginBottom: '1.2rem',
               }}
             >
-              Unityを中心としたゲーム開発者として5年以上の経験を持ちます。C#プログラミングとカスタムシェーダー（HLSL/GLSL）を専門とし、没入感のあるビジュアルと快適なゲームプレイを両立したゲーム制作を追求しています。
+              Unityを中心としたゲーム開発者として5年以上の経験を持っています。 C＃プログラミングとカスタムシェーダー（HLSL / GLSL）を専門に、没入感のあるビジュアルと快適なゲームプレイを両立したゲーム制作を追求しています。
             </p>
             <p
               style={{
@@ -226,7 +226,7 @@ function About() {
                 marginBottom: '1.5rem',
               }}
             >
-              アクションRPG、シューティング、パズルゲームなど幅広いジャンルの開発経験があり、国内外のゲームジャムでも多数の受賞歴があります。パフォーマンス最適化とビジュアルの美しさを両立させることが得意で、独自のポストエフェクトやパーティクルシステムで世界観を表現することに情熱を注いでいます。
+              アクションRPG、シューティングなど幅広いジャンルの開発経験があり、国内外のゲームジャムでも数多くの経験があります。パフォーマンスの最適化とビジュアルの美しさを両立させることが自慢であり、独自のポストエフェクトやパーティクルシステムで世界観を表現することに情熱を注いでいます。
             </p>
 
             {/* Status indicator */}

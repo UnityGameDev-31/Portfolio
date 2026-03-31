@@ -166,7 +166,7 @@ function Hero() {
         >
           {[
             { value: '5+', label: '年の経験' },
-            { value: '20+', label: 'ゲームプロジェクト' },
+            { value: '10+', label: 'ゲームプロジェクト' },
             { value: '100%', label: 'Unity製' },
           ].map((stat) => (
             <div key={stat.label} style={{ textAlign: 'center' }}>
