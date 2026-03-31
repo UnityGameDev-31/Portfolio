@@ -6,7 +6,7 @@ const NAV_LINKS = [
   { to: '/about', label: '自己紹介' },
   { to: '/gallery', label: 'ギャラリー' },
   { to: '/projects', label: 'プロジェクト' },
-  { to: '/contact', label: 'お問い合わせ' },
+  /*{ to: '/contact', label: 'お問い合わせ' },*/
 ] as const
 
 export function Header() {
