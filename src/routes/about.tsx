@@ -166,7 +166,8 @@ function About() {
               boxShadow: '0 0 30px rgba(0,240,255,0.1)',
             }}
           >
-            
+          </div>
+          
           {/* Bio */}
           <div>
             <h2
