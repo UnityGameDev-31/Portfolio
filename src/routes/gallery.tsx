@@ -9,69 +9,49 @@ export const Route = createFileRoute('/gallery')({
 const GALLERY_ITEMS = [
   {
     id: 1,
-    title: 'アクションRPG — 戦闘シーン',
-    category: 'RPG',
-    color: ['#0a0a1a', '#1a0a30', '#0d0020'],
+    title: 'Cloud Song: Mage System',
+    category: 'SYS',
+    color: ['#1a0a30', '#0d0020', '#0a0a1a'],
     accentColor: 'var(--neon-magenta)',
-    desc: 'カスタムライティングシェーダーを使用した夜間戦闘シーン。',
-    image: '/headshot-on-white.jpg'
+    desc: 'ScriptableObjectを活用したパラメータ管理と、魔術師クラスのスキル・転職システム設計 [cite: 21, 44] 。',
+    image: '/CloudSong.jpg'
   },
   {
     id: 2,
-    title: 'シューティング — ボス戦',
-    category: 'STG',
+    title: 'Revelation Mobile: Rendering',
+    category: 'OPT',
     color: ['#000a1a', '#001a2a', '#000d18'],
     accentColor: 'var(--neon-blue)',
-    desc: 'プロシージャルに生成されるパーティクルバレットパターン。',
+    desc: 'LOD/HLOD制御およびCompute ShaderによるGPUカリングの実装で描画負荷を大幅に削減  。',
+    image: '/Relevation.jpg'
   },
   {
     id: 3,
-    title: 'パズルゲーム — ステージ3',
-    category: 'PZL',
+    title: 'AmetaWorld Conqueror',
+    category: 'Web3',
     color: ['#0a0a00', '#1a1a00', '#100f00'],
     accentColor: 'var(--neon-green)',
-    desc: 'ディゾルブシェーダーを活用したブロック消滅エフェクト。',
+    desc: 'Polygonネットワークとのスマートコントラクト連携、Metamaskウォレット接続のWebGL実装 [cite: 26] 。',
+    image: '/Ameta.png'
   },
   {
     id: 4,
-    title: 'シェーダーデモ — ホログラム',
-    category: 'DEMO',
+    title: 'Army Antz: Networking',
+    category: 'NET',
     color: ['#000a0a', '#001a18', '#000d10'],
     accentColor: 'var(--neon-blue)',
-    desc: 'HLSLで実装したリアルタイムホログラムシェーダー。',
+    desc: 'Photon PUN2を用いた最大4人対戦の同期ロジック、独自シリアライザによる通信量最適化 [cite: 39, 44] 。',
+    image: '/ArmyAntz.png'
   },
   {
     id: 5,
-    title: 'プラットフォーマー — 森ステージ',
-    category: 'ACT',
+    title: 'Custom HLSL Shaders',
+    category: 'SHD',
     color: ['#050a05', '#0a1a0a', '#061006'],
     accentColor: 'var(--neon-green)',
-    desc: 'パーリンノイズによる動的な植生シェーダーを実装。',
-  },
-  {
-    id: 6,
-    title: 'ポストエフェクト集',
-    category: 'VFX',
-    color: ['#0a0010', '#150020', '#0d0018'],
-    accentColor: 'var(--neon-magenta)',
-    desc: 'クロマティックアベレーション、グリッチ、スキャンラインの組み合わせ。',
-  },
-  {
-    id: 7,
-    title: 'マルチプレイヤー対戦',
-    category: 'NET',
-    color: ['#000a18', '#001530', '#00091e'],
-    accentColor: 'var(--neon-blue)',
-    desc: 'Netcode for GameObjectsを使った2Dオンライン対戦ゲーム。',
-  },
-  {
-    id: 8,
-    title: '水面シェーダーデモ',
-    category: 'SHD',
-    color: ['#000a12', '#00121a', '#000810'],
-    accentColor: 'var(--neon-blue)',
-    desc: 'FFTウェーブ + 屈折シェーダーによるリアルタイム水面表現。',
-  },
+    desc: 'SSR(水面反射)や頂点アニメーション、チームカラー動的変更などのHLSLシェーダ実装 [cite: 22, 39] 。',
+    image: '/Shader.png'
+  }
 ]
 
 function PlaceholderImage({
