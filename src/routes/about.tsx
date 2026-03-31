@@ -21,8 +21,8 @@ const SKILLS = [
 const EXPERIENCES = [
   {
     icon: <Trophy size={20} style={{ color: 'var(--neon-blue)' }} />,
-    title: 'ゲームジャム優勝 × 3',
-    desc: '国内外のゲームジャムで3度の最優秀賞を受賞。',
+    title: 'ゲームジャム優勝 × 2',
+    desc: '国内外のゲームジャムで2度の最優秀賞を受賞。',
   },
   {
     icon: <Code2 size={20} style={{ color: 'var(--neon-magenta)' }} />,
@@ -147,7 +147,7 @@ function About() {
             style={{
               width: 'clamp(120px, 20vw, 200px)',
               aspectRatio: '1',
-              background: '/headshot-on-white.jpg',
+              background: `url('/headshot-on-white.jpg')`,
               border: '2px solid rgba(0,240,255,0.3)',
               borderRadius: '8px',
               display: 'flex',
