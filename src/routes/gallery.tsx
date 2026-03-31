@@ -88,9 +88,7 @@ function PlaceholderImage({
       style={{
         width: '100%',
         height: `${h}px`,
-        background: item.image 
-  ? `url(${item.image}) center/cover no-repeat` 
-  : `linear-gradient(135deg, ${item.color[0]} 0%, ${item.color[1]} 50%, ${item.color[2]} 100%)`;
+        background: item.image? `url(${item.image}) center/cover no-repeat` : `linear-gradient(135deg, ${item.color[0]} 0%, ${item.color[1]} 50%, ${item.color[2]} 100%)`,
         position: 'relative',
         overflow: 'hidden',
         display: 'flex',
