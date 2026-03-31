@@ -3,7 +3,7 @@ title: "AmetaWorld Conqueror - Web3 & ブロックチェーン統合システム
 description: "Polygonネットワークと連携したPlay-to-Earn（P2E）戦略シミュレーションゲーム。Unity WebGLとスマートコントラクトを統合し、ウォレット接続からNFT/トークン報酬の配布までをシームレスに実現。"
 tags: ["Unity", "WebGL", "C#", "Solidity", "Web3.js", "Blockchain"]
 github: "" 
-liveUrl: "https://www.mediafire.com/file/ug1zubfeyppbg1j/AMeta_Video_2022_06_24_short_1.mp4/file"
+liveUrl: "https://drive.google.com/file/d/1AIUtPJixSVRx3LQGOoDK1GCZ_OuTSvh9/view?usp=sharing"
 image: "/Ameta.png"
 ---
 
