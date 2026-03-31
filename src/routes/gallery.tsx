@@ -14,6 +14,7 @@ const GALLERY_ITEMS = [
     color: ['#0a0a1a', '#1a0a30', '#0d0020'],
     accentColor: 'var(--neon-magenta)',
     desc: 'カスタムライティングシェーダーを使用した夜間戦闘シーン。',
+    image: '/headshot-on-white.jpg'
   },
   {
     id: 2,
@@ -87,7 +88,9 @@ function PlaceholderImage({
       style={{
         width: '100%',
         height: `${h}px`,
-        background: `linear-gradient(135deg, ${item.color[0]} 0%, ${item.color[1]} 50%, ${item.color[2]} 100%)`,
+        background: item.image 
+  ? `url(${item.image}) center/cover no-repeat` 
+  : `linear-gradient(135deg, ${item.color[0]} 0%, ${item.color[1]} 50%, ${item.color[2]} 100%)`;
         position: 'relative',
         overflow: 'hidden',
         display: 'flex',
