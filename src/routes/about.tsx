@@ -142,64 +142,9 @@ function About() {
             alignItems: 'start',
           }}
         >
+          
           {/* Avatar */}
-          <div
-            style={{
-              width: 'clamp(120px, 20vw, 200px)',
-              aspectRatio: '1',
-              background: `url('/headshot-on-white.jpg')`,
-              backgroundSize: 'cover',
-              // 3. This centers the face/subject in the frame
-              backgroundPosition: 'center',
-              // 4. Prevents the image from repeating if the div is larger than the file
-              backgroundRepeat: 'no-repeat',
-              border: '2px solid rgba(0,240,255,0.3)',
-              borderRadius: '8px',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              position: 'relative',
-              overflow: 'hidden',
-              flexShrink: 0,
-              boxShadow: '0 0 30px rgba(0,240,255,0.1)',
-            }}
-          >
-            {/* Decorative grid */}
-            <div
-              style={{
-                position: 'absolute',
-                inset: 0,
-                backgroundImage: `
-                  linear-gradient(rgba(0,240,255,0.06) 1px, transparent 1px),
-                  linear-gradient(90deg, rgba(0,240,255,0.06) 1px, transparent 1px)
-                `,
-                backgroundSize: '20px 20px',
-              }}
-            />
-            <User
-              size={64}
-              style={{ color: 'rgba(0,240,255,0.3)', position: 'relative', zIndex: 1 }}
-            />
-            {/* Corner accents */}
-            {['top-0 left-0', 'top-0 right-0', 'bottom-0 left-0', 'bottom-0 right-0'].map((pos, i) => (
-              <div
-                key={i}
-                style={{
-                  position: 'absolute',
-                  width: '16px',
-                  height: '16px',
-                  borderColor: 'var(--neon-blue)',
-                  borderStyle: 'solid',
-                  borderWidth: i === 0 ? '2px 0 0 2px' : i === 1 ? '2px 2px 0 0' : i === 2 ? '0 0 2px 2px' : '0 2px 2px 0',
-                  top: i < 2 ? 8 : 'auto',
-                  bottom: i >= 2 ? 8 : 'auto',
-                  left: i % 2 === 0 ? 8 : 'auto',
-                  right: i % 2 === 1 ? 8 : 'auto',
-                }}
-              />
-            ))}
-          </div>
-
+          
           {/* Bio */}
           <div>
             <h2
