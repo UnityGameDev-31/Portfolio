@@ -4,6 +4,7 @@ description: "次世代モバイルMMORPGにおける描画負荷最適化とテ
 tags: ["Unity", "C#", "HLSL", "Compute Shader", "GPU Culling", "Optimization"]
 github: "" 
 liveUrl: "https://www.vnggames.com/revelation/"
+image: "/Relevation.jpg"
 ---
 
 ## 概要
