@@ -148,6 +148,11 @@ function About() {
               width: 'clamp(120px, 20vw, 200px)',
               aspectRatio: '1',
               background: `url('/headshot-on-white.jpg')`,
+              backgroundSize: 'cover',
+              // 3. This centers the face/subject in the frame
+              backgroundPosition: 'center',
+              // 4. Prevents the image from repeating if the div is larger than the file
+              backgroundRepeat: 'no-repeat',
               border: '2px solid rgba(0,240,255,0.3)',
               borderRadius: '8px',
               display: 'flex',
