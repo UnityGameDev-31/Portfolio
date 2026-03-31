@@ -139,6 +139,7 @@ function Hero() {
           >
             プロジェクトを見る
           </Link>
+          {/*
           <Link
             to="/contact"
             className="btn-neon-magenta"
@@ -153,6 +154,7 @@ function Hero() {
           >
             お問い合わせ
           </Link>
+          */}
         </div>
 
         {/* Stats */}
