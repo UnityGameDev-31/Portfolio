@@ -222,7 +222,7 @@ function About() {
                   letterSpacing: '0.05em',
                 }}
               >
-                現在、フリーランス案件を受付中
+                現在、フリーランス案件を募集中です。お気軽にご相談ください。
               </span>
             </div>
           </div>
