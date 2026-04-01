@@ -19,11 +19,11 @@ const SKILLS = [
 ]
 
 const EXPERIENCES = [
-  {
+  /*{
     icon: <Trophy size={20} style={{ color: 'var(--neon-blue)' }} />,
     title: 'ゲームジャム優勝 × 2',
     desc: '国内外のゲームジャムで2度の最優秀賞を受賞。',
-  },
+  },*/
   {
     icon: <Code2 size={20} style={{ color: 'var(--neon-magenta)' }} />,
     title: 'カスタムシェーダー専門',
